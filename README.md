@@ -11,13 +11,21 @@ Setup:
 ```
 version: v1
 tables:
-  table_one:
+  table_one: # change to any name underscored
     columns:
-        column_one:
+        column_one: # change to any name underscored
             datatype: String
         column_two:
             datatype: String
         column_three:
+            datatype: Integer
+  users:
+    columns:
+        name: # change to any name underscored
+            datatype: String
+        date:
+            datatype: Datetime
+        count:
             datatype: Integer
 ```
 
